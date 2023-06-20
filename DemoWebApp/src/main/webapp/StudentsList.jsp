@@ -21,8 +21,6 @@ if(username==null){
 String sql="SELECT * FROM cs_employee limit 10";
 NewConnection connection = new NewConnection();
 ResultSet rs=(ResultSet)connection.GetData(sql);
-int row= rs.getRow();
-System.out.print(row);
 out.println("<b style='margin:15px'>ID</b>");
 out.println("<b style='margin:15px'>Student Roll</b>");
 out.println("<b style='margin:15px'>Student Name</b>");
